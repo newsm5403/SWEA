@@ -1,1 +1,1 @@
-print(input().upper())
+print(input().upper()) #입력받은 값을 바로 .upper()를 통해 대문자로 바꿔준다.
