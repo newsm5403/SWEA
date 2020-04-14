@@ -6,7 +6,7 @@ sum_N = 0
 while True:       # 정수 자리수 구하기
     result = N // pow(10, n)
     if result == 0:
-        break
+        break     # return은 함수에서만 가능하다!
     n += 1
 
 while n >= 0:     # 정수 자리수 합 구하기
